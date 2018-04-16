@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="grid-x grid-padding-x info__content">
+	<div class="small-12 medium-6 large-4 xxlarge-4 cell">
+		<h6>Personal</h6>
+		{{page.personal-text | markdownify}}
+	</div>
+	
+	<div class="small-12 medium-6 large-5 xxlarge-4 cell">
+  	<h6>Selected Clients / Brands</h6>
+		{{page.clients-text | markdownify}}
+		
+		<h6>Colophon</h6>
+		{{page.colophon-text | markdownify}}
+		<h6>{{page.disclaimer-text | markdownify}}</h6>
+	</div>
+	
+</div>

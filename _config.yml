@@ -1,0 +1,79 @@
+---
+title: Niall Kenny
+timezone: UTC
+collections:
+  projects:
+    title: Projects
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: narrative
+  values:
+    layout: project
+    image: 
+    images:
+    -
+    vimeo: 
+    director: 
+    production-company: 
+    equipment: 
+    is-shown: true
+url: https://www.niallkenny.com
+baseurl: 
+description: Director based in London specialising in documentaries, fashion film and branded content.
+permalink: pretty
+exclude:
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+- assets/scss
+plugins:
+- jekyll-paginate-v2
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  auto_ids: false
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+colophon: http://garethjohnsdesign.com
+company: Niall Kenny
+job: Director
+email: info@niallkenny.com
+google_site_verification:
+analytics:
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%Y"
+future: true
+social:
+  instagram: 
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
+pagination:
+  enabled: true
+  per_page: 100
