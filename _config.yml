@@ -2,11 +2,11 @@
 title: Niall Kenny
 timezone: UTC
 collections:
-  projects:
-    title: Projects
-    output: true
   posts:
     title: Posts
+    output: true
+  projects:
+    title: Projects
     output: true
   uploads:
     title: Uploads
@@ -24,7 +24,7 @@ defaults:
     layout: project
     image: 
     images:
-    -
+    - 
     vimeo: 
     director: 
     production-company: 
@@ -32,7 +32,8 @@ defaults:
     is-shown: true
 url: https://www.niallkenny.com
 baseurl: 
-description: Director based in London specialising in documentaries, fashion film and branded content.
+description: Director based in London specialising in documentaries, fashion film
+  and branded content.
 permalink: pretty
 exclude:
 - bower.json
@@ -60,8 +61,8 @@ colophon: http://garethjohnsdesign.com
 company: Niall Kenny
 job: Director
 email: info@niallkenny.com
-google_site_verification:
-analytics:
+google_site_verification: 
+analytics: 
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%Y"
