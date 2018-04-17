@@ -1,7 +1,7 @@
 ---
 title: Is Tropical Mongolia
 date: 2013-01-01 00:00:00 Z
-position: 2
+position: 4
 image: "/uploads/is-tropical-mongolia.jpg"
 vimeo: 69016182
 layout: project

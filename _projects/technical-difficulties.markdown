@@ -1,7 +1,7 @@
 ---
 title: Technical Difficulties
 date: 2015-01-01 00:00:00 Z
-position: 5
+position: 2
 image: "/uploads/technical-difficulties.jpg"
 vimeo: 115969586
 layout: project
