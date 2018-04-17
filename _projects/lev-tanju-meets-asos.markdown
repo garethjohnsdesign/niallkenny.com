@@ -1,7 +1,7 @@
 ---
 title: Lev Tanju meets ASOS
 date: 2013-01-01 00:00:00 Z
-position: 6
+position: 5
 image: "/uploads/meet-lev-tanju.jpg"
 vimeo: 47998646
 layout: project

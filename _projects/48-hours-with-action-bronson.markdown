@@ -1,7 +1,7 @@
 ---
 title: 48 hrs with Action Bronson
 date: 2013-01-01 00:00:00 Z
-position: 6
+position: 3
 image: "/uploads/action-bronson.jpg"
 vimeo: 60649994
 layout: project
