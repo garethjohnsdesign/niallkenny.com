@@ -1,7 +1,7 @@
 ---
 title: A-Z of Slang
 date: 2015-01-01 00:00:00 Z
-position: 6
+position: 4
 image: "/uploads/a-z-of-slang.jpg"
 vimeo: 111222305
 layout: project

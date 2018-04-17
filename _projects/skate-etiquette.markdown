@@ -1,7 +1,7 @@
 ---
 title: Skate Etiquette
 date: 2013-01-01 00:00:00 Z
-position: 6
+position: 0
 image: "/uploads/skateboard-etiquette.jpg"
 vimeo: 94154227
 layout: project
