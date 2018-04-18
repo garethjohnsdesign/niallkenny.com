@@ -237,39 +237,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/_uploads\/burberry-peace.jpg": {
-		"ft": 16384,
-		"iS": 65701,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/burberry-peace.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/id-atozofslang.jpg": {
-		"ft": 16384,
-		"iS": 80223,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/id-atozofslang.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/ikyithwmel.jpg": {
-		"ft": 16384,
-		"iS": 94158,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/ikyithwmel.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/_uploads\/is-tropical-mongolia.jpg": {
 		"ft": 16384,
 		"iS": 43592,
@@ -292,67 +259,12 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/_uploads\/miss-vogue-brooklyn-beckham.jpg": {
-		"ft": 16384,
-		"iS": 84159,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/miss-vogue-brooklyn-beckham.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/_uploads\/mount-kimbie.jpg": {
 		"ft": 16384,
 		"iS": 93416,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/mount-kimbie.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/natalie-westling-teaches-skateboard-etiquette.jpg": {
-		"ft": 16384,
-		"iS": 129873,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/natalie-westling-teaches-skateboard-etiquette.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/new-era-take-to-the-streets.jpg": {
-		"ft": 16384,
-		"iS": 62558,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/new-era-take-to-the-streets.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/noisey-48-hours-action-bronson.jpg": {
-		"ft": 16384,
-		"iS": 82730,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/noisey-48-hours-action-bronson.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/phillips-mount-kimbie.jpg": {
-		"ft": 16384,
-		"iS": 34541,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/phillips-mount-kimbie.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -380,17 +292,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/_uploads\/vodafone-firsts.jpg": {
-		"ft": 16384,
-		"iS": 59461,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/vodafone-firsts.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/css\/app.css": {
 		"aP": 0,
 		"bl": 0,
@@ -408,6 +309,75 @@
 		"oAP": "\/assets\/css\/app.css.map",
 		"oF": 0
 		},
+	"\/assets\/favicons\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 2570,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 7421,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 1211,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/favicons\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/assets\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 546,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 664,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/favicons\/favicon.ico",
+		"oF": 0
+		},
 	"\/assets\/favicons\/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -415,6 +385,71 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/assets\/favicons\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 1458,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/mstile-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 1678,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 1949,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/mstile-310x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 3857,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/mstile-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 987,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/mstile-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/assets\/favicons\/site.webmanifest": {
 		"cB": 0,
@@ -473,12 +508,12 @@
 		},
 	"\/assets\/img\/og-image.png": {
 		"ft": 32768,
-		"iS": 6380,
+		"iS": 4904,
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
