@@ -5,7 +5,6 @@ position: 2
 image: "/uploads/technical-difficulties.jpg"
 vimeo: 115969586
 layout: project
-is-shown: true
 ---
 
 A short film exploring the repetition and strain that skateboarders go through when trying to land a trick.

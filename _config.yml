@@ -19,21 +19,14 @@ defaults:
     layout: post
 - scope:
     path: ''
-    type: narrative
+    type: projects
   values:
     layout: project
     image: 
-    images:
-    - 
     vimeo: 
-    director: 
-    production-company: 
-    equipment: 
-    is-shown: true
 url: https://www.niallkenny.com
 baseurl: 
-description: Director based in London specialising in documentaries, fashion film
-  and branded content.
+description: Director based in London specialising in documentaries, fashion film and branded content.
 permalink: pretty
 exclude:
 - bower.json

@@ -5,11 +5,10 @@ position: 4
 image: "/uploads/is-tropical-mongolia.jpg"
 vimeo: 69016182
 layout: project
-is-shown: true
 ---
 
 Bored of the usual touring destinations, Is Tropical decided to become one of the first Western bands to ever perform in Mongolia.
 
-Director/Camera : Niall Kenny  
-Producer: Alex Hoffman  
-Editor: Iain Pettifer  
+Director/Camera — Niall Kenny  
+Producer — Alex Hoffman  
+Editor — Iain Pettifer  

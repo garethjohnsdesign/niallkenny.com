@@ -5,7 +5,6 @@ position: 1
 image: "/uploads/a-z-of-slang.jpg"
 vimeo: 111222305
 layout: project
-is-shown: true
 ---
 
 Made as part of i-D magazine’s A-Z series. This film explores the A-Z of slang with graphics by Fergus Purcell.
