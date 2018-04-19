@@ -7,7 +7,7 @@
 		"uuidString": "EDB44E38-DB9B-408C-B9C2-C572FB45B1A6"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "26330",
 "files": {
 	"\/.gitattributes": {
 		"cB": 0,
@@ -218,7 +218,6 @@
 	"\/_uploads\/a-z-of-slang.jpg": {
 		"ft": 16384,
 		"iS": 119696,
-		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/a-z-of-slang.jpg",
 		"oF": 0,
@@ -229,7 +228,6 @@
 	"\/_uploads\/action-bronson.jpg": {
 		"ft": 16384,
 		"iS": 90603,
-		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/action-bronson.jpg",
 		"oF": 0,
@@ -240,7 +238,6 @@
 	"\/_uploads\/is-tropical-mongolia.jpg": {
 		"ft": 16384,
 		"iS": 43592,
-		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/is-tropical-mongolia.jpg",
 		"oF": 0,
@@ -251,7 +248,6 @@
 	"\/_uploads\/meet-lev-tanju.jpg": {
 		"ft": 16384,
 		"iS": 126268,
-		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/meet-lev-tanju.jpg",
 		"oF": 0,
@@ -262,7 +258,6 @@
 	"\/_uploads\/mount-kimbie.jpg": {
 		"ft": 16384,
 		"iS": 93416,
-		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/mount-kimbie.jpg",
 		"oF": 0,
@@ -273,7 +268,6 @@
 	"\/_uploads\/skateboard-etiquette.jpg": {
 		"ft": 16384,
 		"iS": 149290,
-		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/skateboard-etiquette.jpg",
 		"oF": 0,
@@ -284,7 +278,6 @@
 	"\/_uploads\/technical-difficulties.jpg": {
 		"ft": 16384,
 		"iS": 97219,
-		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/technical-difficulties.jpg",
 		"oF": 0,
@@ -5897,7 +5890,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/1-1600.jpg": {
 		"ft": 16384,
 		"iS": 241923,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-1600.jpg",
 		"oF": 0,
@@ -5908,7 +5900,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/1-375.jpg": {
 		"ft": 16384,
 		"iS": 23648,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-375.jpg",
 		"oF": 0,
@@ -5919,7 +5910,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/1-480.jpg": {
 		"ft": 16384,
 		"iS": 34414,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-480.jpg",
 		"oF": 0,
@@ -5930,7 +5920,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/1.jpg": {
 		"ft": 16384,
 		"iS": 91130,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1.jpg",
 		"oF": 0,
@@ -5941,7 +5930,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/13-1600.jpg": {
 		"ft": 16384,
 		"iS": 129996,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-1600.jpg",
 		"oF": 0,
@@ -5952,7 +5940,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/13-375.jpg": {
 		"ft": 16384,
 		"iS": 22812,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-375.jpg",
 		"oF": 0,
@@ -5963,7 +5950,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/13-480.jpg": {
 		"ft": 16384,
 		"iS": 35693,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-480.jpg",
 		"oF": 0,
@@ -5974,7 +5960,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/13.jpg": {
 		"ft": 16384,
 		"iS": 124149,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13.jpg",
 		"oF": 0,
@@ -5985,7 +5970,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/2-1600.jpg": {
 		"ft": 16384,
 		"iS": 187925,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-1600.jpg",
 		"oF": 0,
@@ -5996,7 +5980,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/2-375.jpg": {
 		"ft": 16384,
 		"iS": 30307,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-375.jpg",
 		"oF": 0,
@@ -6007,7 +5990,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/2-480.jpg": {
 		"ft": 16384,
 		"iS": 48290,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-480.jpg",
 		"oF": 0,
@@ -6018,7 +6000,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/2.jpg": {
 		"ft": 16384,
 		"iS": 326478,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2.jpg",
 		"oF": 0,
@@ -6029,7 +6010,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/4-1600.jpg": {
 		"ft": 16384,
 		"iS": 153989,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-1600.jpg",
 		"oF": 0,
@@ -6040,7 +6020,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/4-375.jpg": {
 		"ft": 16384,
 		"iS": 18396,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-375.jpg",
 		"oF": 0,
@@ -6051,7 +6030,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/4-480.jpg": {
 		"ft": 16384,
 		"iS": 25839,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-480.jpg",
 		"oF": 0,
@@ -6062,7 +6040,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/4.jpg": {
 		"ft": 16384,
 		"iS": 70944,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4.jpg",
 		"oF": 0,
@@ -6073,7 +6050,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/thumb-1.jpg": {
 		"ft": 16384,
 		"iS": 68187,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-1.jpg",
 		"oF": 0,
@@ -6084,7 +6060,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/thumb-13.jpg": {
 		"ft": 16384,
 		"iS": 76594,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-13.jpg",
 		"oF": 0,
@@ -6095,7 +6070,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/thumb-2.jpg": {
 		"ft": 16384,
 		"iS": 92856,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-2.jpg",
 		"oF": 0,
@@ -6106,7 +6080,6 @@
 	"\/bower_components\/lightgallery\/demo\/img\/thumb-4.jpg": {
 		"ft": 16384,
 		"iS": 53719,
-		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-4.jpg",
 		"oF": 0,
@@ -7958,8 +7931,7 @@
 	"creationDate": 499797547,
 	"displayValue": "Niall Kenny",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/assets\/favicons\/apple-touch-icon.png",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "\/assets\/favicons\/apple-touch-icon.png"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -9762,7 +9734,6 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
