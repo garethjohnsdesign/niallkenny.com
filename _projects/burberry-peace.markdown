@@ -7,8 +7,8 @@ vimeo: 69016182
 layout: project
 ---
 
-Bored of the usual touring destinations, Is Tropical decided to become one of the first Western bands to ever perform in Mongolia.
+A film following the loved-up Brummie four-piece for Burberry as they prepared to play an intimate show above a London pub. 
 
-Director/Camera — Niall Kenny  
+Director — Niall Kenny  
 Producer — Alex Hoffman  
-Editor — Iain Pettifer  
+D.O.P. - John Fisher
