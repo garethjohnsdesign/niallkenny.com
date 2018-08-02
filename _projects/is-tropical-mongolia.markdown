@@ -1,5 +1,5 @@
 ---
-title: Is Tropical Mongolia
+title: 'Burberry: Brit Rhythm - Peace'
 date: 2013-01-01 00:00:00 Z
 position: 5
 image: "/uploads/is-tropical-mongolia.jpg"
