@@ -1,8 +1,8 @@
 ---
-title: Palace Skateboards meets ASOS
+title: Palace Skateboard's meets ASOS
 date: 2013-01-01 00:00:00 Z
 position: 2
-image: "/uploads/meet-lev-tanju.jpg"
+image: "/uploads/Screen%20Shot%202018-08-02%20at%2019.44.49-790834.png"
 vimeo: 47998646
 layout: project
 ---
