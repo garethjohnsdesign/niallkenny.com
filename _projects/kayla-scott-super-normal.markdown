@@ -2,7 +2,7 @@
 title: 'Kayla Scott: Super Normal - Teen Vogue'
 date: 2013-01-01 00:00:00 Z
 position: 0
-image: "/uploads/Screen%20Shot%202018-08-02%20at%2019.35.44.png"
+image: "/uploads/Screen%20Shot%202018-08-02%20at%2019.35.44%20copy.jpg"
 vimeo: 151400072
 layout: project
 ---
