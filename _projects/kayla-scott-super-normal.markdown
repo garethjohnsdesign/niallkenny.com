@@ -1,5 +1,5 @@
 ---
-title: 48 hrs with Action Bronson
+title: 'Kayla Scott: Super Normal - Teen Vogue'
 date: 2013-01-01 00:00:00 Z
 position: 0
 image: "/uploads/action-bronson.jpg"

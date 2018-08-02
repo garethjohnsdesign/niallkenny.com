@@ -1,5 +1,5 @@
 ---
-title: A-Z of Slang
+title: i-D Magazine - A-Z of Slang
 date: 2015-01-01 00:00:00 Z
 position: 1
 image: "/uploads/a-z-of-slang.jpg"
