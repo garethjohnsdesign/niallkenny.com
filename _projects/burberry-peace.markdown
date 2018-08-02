@@ -2,7 +2,7 @@
 title: 'Burberry: Brit Rhythm - Peace'
 date: 2013-01-01 00:00:00 Z
 position: 5
-image: "/uploads/is-tropical-mongolia.jpg"
+image: "/uploads/Screen%20Shot%202018-08-02%20at%2020.40.38.jpg"
 vimeo: 69016182
 layout: project
 ---
