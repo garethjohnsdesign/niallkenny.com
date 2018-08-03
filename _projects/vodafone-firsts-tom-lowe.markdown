@@ -9,3 +9,4 @@ Vodafone "Firsts" Documenting pro surfer Tom Lowe paddle 25' waves at Todos Sant
 
 Director/Camera - Niall Kenny
 Producer - Dustin Highbridge
+D.O.P - Mikael Levine
