@@ -1,7 +1,7 @@
 ---
 title: Miss Vogue - Brooklyn Beckham's guide to Instagram
 date: 2015-01-01 00:00:00 Z
-position: 6
+position: 5
 image: "/uploads/Screen%20Shot%202018-08-02%20at%2020.32.34.jpg"
 vimeo: 142878549
 layout: project
