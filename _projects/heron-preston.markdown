@@ -8,6 +8,6 @@ vimeo: 283087504
 
 Designer Heron Preston debuts a short film entitled ‘Above the Clouds,’ documenting the process behind Preston's third womenswear and menswear collection for his eponymous brand.
 
-Director - David Laven, Heron Preston
-D.O.P. - Niall Kenny
-Producers - Darryl Phillips, Gregory Stefano
+Director - David Laven, Heron Preston  
+D.O.P. - Niall Kenny  
+Producers - Darryl Phillips, Gregory Stefano  
