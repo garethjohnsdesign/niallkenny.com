@@ -1,8 +1,8 @@
 ---
-title: Jörn Threlfall
+title: Niall Kenny
 position: 0
 image: "/assets/img/og-image.png"
-description: "# Bafta-nominated director specialising in [short-film](/film) and [commercials](/commercials)."
+description: "# London-based DP / Director specialising in online content and documentaries"
 layout: home
 pagination:
   enabled: true
