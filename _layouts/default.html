@@ -11,23 +11,13 @@ layout: compress
 
 <body>
   
-{% if page.layout == "home" %}
-<div class="grid-y align-center loader">
-  <div class="shrink cell">
-    <div class="grid-x grid-padding-x align-center">
-    	<div class="shrink cell" data-aos="fade-in">
-    		<h4>{{site.title}}</h4>
-    	</div>
-    </div>
-  </div>
+<!-- Off Canvas Navigation -->
+<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap" data-close-on-click="false" data-content-scroll="false">
+{% include offcanvas.html %}
 </div>
-{% endif %}
+<!-- End Off Canvas Navigation --> 
 
-<!-- Mobile Navigation -->  
-{% include navigation--mobile.html %}
-<!-- End Mobile Navigation --> 
-
-<div class="wrapper grid-y align-justify {{page.layout | slugify}}">
+<div class="wrapper grid-y off-canvas-content align-justify {{page.layout | slugify}}" data-off-canvas-content>
 <!-- Navigation -->
 {% include navigation.html %}
 <!-- End Navigation -->
@@ -41,15 +31,6 @@ layout: compress
 <!-- End Footer-->
 </div>
 
-<!-- Scripts -->
-{% include scripts.html %}
-<!-- End Scripts -->
-
-<!-- Google Analytics -->
-{% if site.analytics %}
-{% include analytics.html %}
-{% endif %}
-<!-- End Google Analytics -->
 </body>
 
 </html>

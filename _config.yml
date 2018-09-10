@@ -2,34 +2,21 @@
 title: Niall Kenny
 timezone: UTC
 collections:
-  posts:
-    title: Posts
-    output: true
   projects:
     title: Projects
+    output: true
+  posts:
+    title: Posts
     output: true
   uploads:
     title: Uploads
     output: false
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-- scope:
-    path: ''
-    type: projects
-  values:
-    layout: project
-    image: 
-    vimeo: 
 url: https://www.niallkenny.com
-baseurl: 
 description: Director based in London specialising in documentaries, fashion film and branded content.
 permalink: pretty
 exclude:
 - bower.json
+- Gemfile.lock
 - package.json
 - config.codekit3
 - README*
@@ -44,6 +31,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
+- jekyll/imgix
 markdown: kramdown
 kramdown:
   auto_ids: false
@@ -52,16 +40,17 @@ kramdown:
 highlighter: rouge
 colophon: http://garethjohnsdesign.com
 company: Niall Kenny
+showreel: 284202755
 job: "DP / Director"
 email: info@niallkenny.com
-google_site_verification: 
 analytics: 
 logo: "/assets/img/logo.svg"
 per_page: 12
-date_format: "%Y"
+date_format: "%d %B %Y"
 future: true
 social:
-  instagram: 
+  instagram: https://www.instagram.com/niallkenny/
+  vimeo: https://vimeo.com/niallkenny
 compress_html:
   comments:
   - "<!-- "
@@ -71,3 +60,5 @@ compress_html:
 pagination:
   enabled: true
   per_page: 100
+imgix:
+  source: niall-kenny.imgix.net

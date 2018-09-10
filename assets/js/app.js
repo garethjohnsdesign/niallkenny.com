@@ -1,40 +1,22 @@
-$(document).foundation();
+$(document).on('turbolinks:load', function() {
 
-// 1. Loading
+// 1. Foundation
 // --------------------
 
-$(function() {
-if (sessionStorage.getItem('set') === 'set') {
-  $('.loader').hide();
-} else {
-  $('.loader').show();
-  setTimeout(function(){
-        $('.loader').addClass('loaded');
-    }, 1500);  
-  sessionStorage.setItem('set', 'set');
-}
-});
+$(document).foundation();
 
 // 2. Animate on Scroll
 // --------------------
 
-$(function() {
-  AOS.init({ 
-   offset: 64,
-   easing: 'ease-in-out-quart', 
-   duration: 600
-   });   
-});
 
-$(function() {
+AOS.init({ 
+ offset: 64,
+ easing: 'ease-in-out-quart', 
+ duration: 600
+ });
+
 window.addEventListener('load', AOS.refresh);
+
+
+
 });
-
-// 3. Light Gallery
-// --------------------
-
-$('.lightgallery').lightGallery({
-  selector: ".grid-item",
-  download: false,
-  mode: 'lg-fade'
-}); 

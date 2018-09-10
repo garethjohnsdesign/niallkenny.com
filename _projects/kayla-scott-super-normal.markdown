@@ -1,8 +1,8 @@
 ---
-title: 'Teen Vogue - Kayla Scott: Super Normal'
+title: 'Teen Vogue — Kayla Scott: Super Normal'
 date: 2013-01-01 00:00:00 Z
 position: 0
-image: "/uploads/Screen%20Shot%202018-08-02%20at%2019.35.44%20copy.jpg"
+image: "/uploads/teen-vogue-kayla-scott.jpg"
 vimeo: 151400072
 layout: project
 ---

@@ -16,5 +16,6 @@ Single-colored icons can be modified like so:
 ========================================== */
 
 .icon-arrows {
-  font-size: 32px;
+  font-size: 2rem;
+  color: get-color(secondary);
 }

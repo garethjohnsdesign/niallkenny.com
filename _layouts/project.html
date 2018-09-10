@@ -2,32 +2,15 @@
 layout: default
 ---
 
-{% capture the_collection %}{{page.collection}}{% endcapture %}
-  {% if page.collection %}
-    {% assign document = site[the_collection] | where: "is-shown", "true" | sort: 'position' %}
-  {% endif %}
-{% for links in document  %}
-  {% if links.title == page.title %}
-    {% unless forloop.first %}
-      {% assign prevurl = prev.url %}
-    {% endunless %}
-    {% unless forloop.last %}
-      {% assign next = document[forloop.index] %}
-      {% assign nexturl = next.url %}
-    {% endunless %}
-  {% endif %}
-  {% assign prev = links %}
-{% endfor %}
-
 <!-- Content -->
 <div class="grid-x grid-padding-x grid-padding-y align-center" data-aos="fade-in">
 
 <!-- Previous -->
 <div class="medium-2 cell show-for-large project__pagination">
-  {% if prevurl %}
-  <a href="{{prevurl}}">
+  {% if page.previous.url %}
+  <a href="{{page.previous.url}}">
     <div class="grid-y align-center" style="height: 100%;">
-      <div class="shrink cell text-center"><svg class="icon icon-arrows icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg>Test</div>
+      <div class="shrink cell text-center"><svg class="icon icon-arrows icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg></div>
     </div>
   </a>
   {% endif %}
@@ -37,7 +20,8 @@ layout: default
 <!-- Center -->
 <div class="small-12 medium-8 cell">
   <div class="grid-y align-center" style="height: 100%;">
-    <div class="shrink cell">
+    <div class="shrink cell text-center">
+      <div class="margin-bottom-2">{{ page.title }}</div>
 
 {% if page.vimeo %}
 <div class="grid-x grid-padding-x align-center">
@@ -57,48 +41,19 @@ layout: default
 {% endfor %}
 {% endif %}
 
-
-<!-- Credits -->
-<div class="grid-x grid-padding-x align-center">
-  <div class="small-12 medium-shrink cell">
-  
-  {{ page.title }}
-  
-
-  <div class="project__credits">{{ page.director }} — {{ page.production-company }}</div>
-
-  
-  {% if page.award %}
-  <div class="project__credits">{{ page.award }}</div>
-  {% endif %}
-  
-  
-  </div>
-  
-  <div class="small-12 medium-auto cell medium-text-right">
-  
-  {% if page.equipment %}
-  <div class="project__credits">{{ page.equipment }}</div>
-  {% endif %}
-  
-  </div>
-  
-</div>
-<!-- End Credit -->
-
 <!-- Content -->
 <div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="small-12 cell">
-  {{ page.content }}
+  {{ page.content | markdownify }}
   </div>
 </div>
 <!-- End Content -->
 
 <!-- Mobile Pagination -->
-{% if nexturl %}
+{% if page.next.url %}
 <div class="grid-x grid-padding-x align-center hide-for-large">
   <div class="shrink cell text-center">
-    <a href="{{nexturl}}"><svg class="icon icon-arrows icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></a>
+    <a href="{{page.next.url}}"><svg class="icon icon-arrows icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></a>
   </div>
 </div>
 {% endif %}
@@ -113,8 +68,8 @@ layout: default
 
 <!-- Next -->
 <div class="medium-2 cell show-for-large project__pagination">
-  {% if nexturl %}
-  <a href="{{nexturl}}">
+  {% if page.next.url %}
+  <a href="{{page.next.url}}">
     <div class="grid-y align-center" style="height: 100%;">
       <div class="shrink cell text-center"><svg class="icon icon-arrows icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></div>
     </div>

@@ -1,8 +1,8 @@
 ---
-title: i-D Magazine - A-Z of Slang
+title: i-D Magazine — A-Z of Slang
 date: 2015-01-01 00:00:00 Z
 position: 2
-image: "/uploads/Screen%20Shot%202018-08-02%20at%2020.11.54.jpg"
+image: "/uploads/a-z-of-slang.jpg"
 vimeo: 111222305
 layout: project
 ---

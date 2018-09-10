@@ -1,8 +1,8 @@
 ---
-title: ASOS - Meet Palace Skateboards
+title: ASOS — Meet Palace Skateboards
 date: 2013-01-01 00:00:00 Z
 position: 4
-image: "/uploads/Screen%20Shot%202018-08-02%20at%2019.44.49.jpg"
+image: "/uploads/asos-meet-palace.jpg"
 vimeo: 47998646
 layout: project
 ---

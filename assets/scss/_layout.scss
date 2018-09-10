@@ -2,17 +2,20 @@
 //
 //   1. Mixins
 //   2. Global
-//   3. Typography
-//   4. Buttons
-//   4. Navigation
-//   5. Sections
-//   6. Section One
-//   7. Section Two
-//   8. Section Three
-//   9. Section Four
-//   10. Projects
-//   11. Contact
-//   12. Footer
+//   3. Plugins
+//   4. Color
+//   5. Typography
+//   6. Navigation
+//   7. Off-canvas
+//   8. Layout
+//   9. Home
+//   10. Menu / Food
+//   11. Find Us
+//   12. Story
+//   13. Hire Us
+//   14. Contact
+//   15. Page
+//   16. Footer
 
 
 // 1. Mixins
@@ -40,32 +43,43 @@ svg {
 }
 
 ::selection {
-  background: $primary-color;
-  color: $secondary-color;
+  background: $white;
+  color: $black;
 }
 
 :focus {
   outline: 0;
 }
 
-.black {
-  color: $black;
-    &:hover {
-    color: $medium-gray;   
-  }
+// 3. Plugins
+// ----------
+
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: $primary-color;
 }
 
-.gray {
-  color: $medium-gray;
-    &:hover {
-    color: $black;   
-  }
+// 4. Color
+// --------
+
+.white {
+  color: $white;
 }
 
+.primary-color {
+  color: get-color(primary);
+}
 
+.secondary-color {
+  color: get-color(secondary);
+}
 
-// 3. Typography
+// 5. Typography
 // -------------
+
+.underline {
+  border-bottom: 1px solid $black;
+}
 
 .uppercase {
   text-transform: uppercase;
@@ -75,213 +89,87 @@ i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
+p a {
+  border-bottom: 1px solid $white;
+}
 
-// 5. Loading
-// ------
-
-.loader {
-  z-index: 3;
-  position: fixed;
-  background: $white;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%; 
-  opacity: 1;
-  transition: $primary-transition;
-  visibility: visible; 
-  &.loaded {
-    opacity: 0;
-    visibility: hidden;
+/*
+h1 a {
+  line-height: 1.1;
+  border-bottom: 1px solid $white;
+  transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
+  @include breakpoint(medium) {
+   border-bottom: 2px solid $white;
+  }
+  @include breakpoint(large) {
+   border-bottom: 2px solid $white;
   }
 }
+*/
+
 
 
 // 6. Navigation
-// ------
+// -------------
 
-.navigation__logo {
-  z-index: 2;
-}
-
-.navigation__job {
-  z-index: 2;
-}
-
-.navigation__job {
-  color: $secondary-color;
-}
-
-.navigation__hamburger {
-  z-index: 2;
-}
-
-.navigation--mobile {
-  z-index: 1;
-  position: fixed;
-  background: $white;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%; 
-  opacity: 0;
-  transition: $primary-transition;
-  visibility: hidden;
-  font-family: $header-font-family;
-  font-size: 1.25rem;
-  &.open {
-    opacity: 1;
-    visibility: visible;
-  }
-  a {
-   padding: 1rem 0rem;
-  }
-}
-
-// 7. Projects
-// ----------
-
-.projects__list a {
-  display: block;
+.navigation {
   width: 100%;
-  position: relative; 
-  color: transparent;
-  &:hover {
-    color: $white;   
-  }
-}
-    
-.projects__list a:hover img {
-  filter: saturate(100%) brightness(70%); 
-}
-    
-.projects__list a img {
-  transition: $primary-transition;
-  padding-bottom: 1rem;
-}
-
-
-// 8. Project
-// ---------
-
-.project img {
- padding-bottom: 1rem;
-}
-
-.project__credits {
-  color: $secondary-color;
-}
-
-.project__pagination a {
-  color: $secondary-color;
-  &:hover {
-    color: $black;  
+  .cell {
+	z-index: 14; 
   }
 }
 
-// 9. Info
-// ---------
+.hamburger-inner {
+  &,
+  &::before,
+  &::after {
+    background-color: $white;
+  }
+}
+
+// 7. Off-canvas
+// -------------
+
+.off-canvas {
+  @include links ($white, $dark-gray)
+}
+
+.hamburger-inner {
+  &,
+  &::before,
+  &::after {
+    background-color: $white;
+  }
+}
+
+.hamburger {
+  &.is-active {
+    .hamburger-inner {
+      &,
+      &::before,
+      &::after {
+        background-color: $white;
+      }
+    }
+  }
+}
 
 .wrapper {
   min-height: 100vh;
   padding: 1rem;
   @include breakpoint(medium) {
-    padding: 1rem;
+    padding: 2rem;
   }
   @include breakpoint(large) {
-    padding: 1.5rem;
+    padding: 3rem;
   }
 }
-
-.item__director {
-//   font-family: $secondary-font-family;
-  color: $secondary-color;
+      
+.excerpt a img {
+  transition: $primary-transition;
 }
 
-.cv__title {
-  color: $secondary-color;
-}
-
-.cv__item {
-  border-bottom: 1px solid $light-gray;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.home__selected {
-  color: $secondary-color;
-}
-
-.item__play {
-  position: absolute;
-  top: 0rem;
-  left: 0rem;
-  width: 100%;
-  height: 100%;
-}
-
-.info__content p {
-//   margin-top: 2rem;
-  color: $secondary-color;
-}
-
-.info__content a {
-//   margin-top: 2rem;
-  color: $secondary-color;
-  border-bottom: 1px solid $secondary-color;
-  &:hover {
-    color: $black; 
-    border-bottom: 1px solid $black;
-  }
-}
-
-.info__content__cv a {
-//   margin-top: 2rem;
-  color: $primary-color;
-  border-bottom: 1px solid $primary-color;
-  &:hover {
-    color: $secondary-color; 
-    border-bottom: 1px solid $secondary-color;
-  }
-}
-
-
-
-.navigation__secondary a {
-  color: $secondary-color;
-}
-
-.navigation__secondary__cell {
-  padding-left: 0rem;
-}
-
-.footer a {
-  color: $secondary-color;
-  &:hover {
-    color: $primary-color;   
-  }
-}
-
-.grid-item {
-  padding: $global-padding;
-}
-
-.grid[data-columns]::before {
-  @include breakpoint(small) {
-  content: '1 .cell';
-  }
-  @include breakpoint(medium) {
-  content: '2 .cell';
-  }
-  @include breakpoint(large) {
-  content: '3 .cell';
-  }
-}
-
-.grid-item a:hover img {
-  filter: saturate(100%) brightness(70%); 
-}
-    
-.grid-item a img {
+.excerpt a:hover img {
+  filter: saturate(100%) brightness(70%);
   transition: $primary-transition;
 }

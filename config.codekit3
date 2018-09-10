@@ -16,6 +16,13 @@
 		"oAP": "\/.gitattributes",
 		"oF": 0
 		},
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/404.md": {
 		"cB": 0,
 		"cS": 0,
@@ -24,9 +31,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/404.html",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "\/404.md",
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -55,6 +62,13 @@
 		"oAP": "\/_includes\/analytics.html",
 		"oF": 0
 		},
+	"\/_includes\/excerpt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/excerpt.html",
+		"oF": 0
+		},
 	"\/_includes\/footer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -69,18 +83,11 @@
 		"oAP": "\/_includes\/head.html",
 		"oF": 0
 		},
-	"\/_includes\/item.html": {
+	"\/_includes\/images\/excerpt.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/item.html",
-		"oF": 0
-		},
-	"\/_includes\/navigation--mobile.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/navigation--mobile.html",
+		"oAP": "\/_includes\/images\/excerpt.html",
 		"oF": 0
 		},
 	"\/_includes\/navigation.html": {
@@ -90,11 +97,11 @@
 		"oAP": "\/_includes\/navigation.html",
 		"oF": 0
 		},
-	"\/_includes\/overlay_menu.html": {
+	"\/_includes\/offcanvas.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/overlay_menu.html",
+		"oAP": "\/_includes\/offcanvas.html",
 		"oF": 0
 		},
 	"\/_includes\/scripts.html": {
@@ -104,18 +111,18 @@
 		"oAP": "\/_includes\/scripts.html",
 		"oF": 0
 		},
+	"\/_layouts\/archive.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/archive.html",
+		"oF": 0
+		},
 	"\/_layouts\/compress.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/compress.html",
-		"oF": 0
-		},
-	"\/_layouts\/cv.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/cv.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
@@ -132,17 +139,10 @@
 		"oAP": "\/_layouts\/home.html",
 		"oF": 0
 		},
-	"\/_layouts\/info.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/info.html",
-		"oF": 0
-		},
 	"\/_layouts\/missing.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/missing.html",
 		"oF": 0
 		},
@@ -158,13 +158,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/project.html",
-		"oF": 0
-		},
-	"\/_layouts\/projects.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/projects.html",
 		"oF": 0
 		},
 	"\/_projects\/a-z-of-slang.markdown": {
@@ -230,11 +223,11 @@
 		"oAP": "\/_projects\/noisey-x-tuborg-scriptonite.markdown",
 		"oF": 0
 		},
-	"\/_projects\/RANDOM-ACTS-IKYITHWMEL.markdown": {
+	"\/_projects\/random-acts-IKYITHWMEL.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_projects\/RANDOM-ACTS-IKYITHWMEL.markdown",
+		"oAP": "\/_projects\/random-acts-IKYITHWMEL.markdown",
 		"oF": 0
 		},
 	"\/_projects\/skate-etiquette.markdown": {
@@ -259,13 +252,13 @@
 		},
 	"\/_uploads\/a-z-of-slang.jpg": {
 		"ft": 16384,
-		"iS": 119696,
+		"iS": 110707,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/a-z-of-slang.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/action-bronson.jpg": {
@@ -276,34 +269,67 @@
 		"oAP": "\/_uploads\/action-bronson.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/_uploads\/alexa-chung-vogue-youtube-1024x576-3d9b42.jpg": {
+	"\/_uploads\/alexa-chung-vogue-youtube.jpg": {
 		"ft": 16384,
-		"iS": 98813,
+		"iS": 131818,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/_uploads\/alexa-chung-vogue-youtube-1024x576-3d9b42.jpg",
+		"oAP": "\/_uploads\/alexa-chung-vogue-youtube.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/_uploads\/alexa-chung-vogue-youtube-1024x576.jpg": {
+	"\/_uploads\/asos-meet-palace.jpg": {
 		"ft": 16384,
-		"iS": 98813,
+		"iS": 157542,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/_uploads\/alexa-chung-vogue-youtube-1024x576.jpg",
+		"oAP": "\/_uploads\/asos-meet-palace.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/_uploads\/burberry-peace.jpg": {
+		"ft": 16384,
+		"iS": 80368,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/burberry-peace.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/_uploads\/heron-preston.jpg": {
+		"ft": 16384,
+		"iS": 778223,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/heron-preston.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/_uploads\/IKYITHWMEL.jpg": {
+		"ft": 16384,
+		"iS": 199147,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/IKYITHWMEL.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/is-tropical-mongolia.jpg": {
 		"ft": 16384,
-		"iS": 43592,
+		"iS": 55307,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/is-tropical-mongolia.jpg",
@@ -314,10 +340,21 @@
 		},
 	"\/_uploads\/meet-lev-tanju.jpg": {
 		"ft": 16384,
-		"iS": 126268,
+		"iS": 122323,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/meet-lev-tanju.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/_uploads\/miss-vogue-brooklyn-beckham.jpg": {
+		"ft": 16384,
+		"iS": 154377,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/miss-vogue-brooklyn-beckham.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -331,166 +368,34 @@
 		"oAP": "\/_uploads\/mount-kimbie.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/_uploads\/Screen Shot 2018-07-23 at 10.26.38 AM.jpg": {
+	"\/_uploads\/natalie-westling.jpg": {
 		"ft": 16384,
-		"iS": 778223,
+		"iS": 163307,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-07-23 at 10.26.38 AM.jpg",
+		"oAP": "\/_uploads\/natalie-westling.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/_uploads\/Screen Shot 2018-08-02 at 19.35.44 copy.jpg": {
+	"\/_uploads\/scriptonite.jpg": {
 		"ft": 16384,
-		"iS": 526810,
+		"iS": 231726,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-02 at 19.35.44 copy.jpg",
+		"oAP": "\/_uploads\/scriptonite.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/Screen Shot 2018-08-02 at 19.35.44.png": {
-		"ft": 32768,
-		"iS": 1302917,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-02 at 19.35.44.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_uploads\/Screen Shot 2018-08-02 at 19.44.49-790834.png": {
-		"ft": 32768,
-		"iS": 1695260,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-02 at 19.44.49-790834.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_uploads\/Screen Shot 2018-08-02 at 19.44.49.jpg": {
-		"ft": 16384,
-		"iS": 669756,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-02 at 19.44.49.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/Screen Shot 2018-08-02 at 19.44.49.png": {
-		"ft": 32768,
-		"iS": 1207926,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-02 at 19.44.49.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_uploads\/Screen Shot 2018-08-02 at 20.11.54.jpg": {
-		"ft": 16384,
-		"iS": 406988,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-02 at 20.11.54.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/Screen Shot 2018-08-02 at 20.32.34.jpg": {
-		"ft": 16384,
-		"iS": 522587,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-02 at 20.32.34.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/Screen Shot 2018-08-02 at 20.40.38.jpg": {
-		"ft": 16384,
-		"iS": 242066,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-02 at 20.40.38.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/Screen Shot 2018-08-02 at 20.42.59.jpg": {
-		"ft": 16384,
-		"iS": 518361,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-02 at 20.42.59.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/Screen Shot 2018-08-03 at 20.56.57.jpg": {
-		"ft": 16384,
-		"iS": 289371,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-03 at 20.56.57.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/Screen Shot 2018-08-03 at 21.18.47.jpg": {
-		"ft": 16384,
-		"iS": 396382,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-03 at 21.18.47.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/Screen Shot 2018-08-17 at 10.59.16.jpg": {
-		"ft": 16384,
-		"iS": 275321,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-17 at 10.59.16.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_uploads\/Screen Shot 2018-08-17 at 11.22.28.jpg": {
-		"ft": 16384,
-		"iS": 350752,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2018-08-17 at 11.22.28.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/skateboard-etiquette.jpg": {
 		"ft": 16384,
-		"iS": 149290,
+		"iS": 150503,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/skateboard-etiquette.jpg",
@@ -499,9 +404,20 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/_uploads\/take-to-the-streets.jpg": {
+		"ft": 16384,
+		"iS": 221872,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/take-to-the-streets.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/_uploads\/technical-difficulties.jpg": {
 		"ft": 16384,
-		"iS": 97219,
+		"iS": 127464,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/technical-difficulties.jpg",
@@ -509,6 +425,46 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/_uploads\/teen-vogue-kayla-scott.jpg": {
+		"ft": 16384,
+		"iS": 107562,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/teen-vogue-kayla-scott.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/_uploads\/vodafone-firsts.jpg": {
+		"ft": 16384,
+		"iS": 201497,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/vodafone-firsts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/archive.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/archive.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/assets\/css\/app.css": {
 		"aP": 0,
@@ -596,17 +552,9 @@
 		"oAP": "\/assets\/favicons\/favicon.ico",
 		"oF": 0
 		},
-	"\/assets\/favicons\/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/assets\/favicons\/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"\/assets\/favicons\/mstile-144x144.png": {
 		"ft": 32768,
-		"iS": 1458,
+		"iS": 1798,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/mstile-144x144.png",
 		"oF": 0,
@@ -628,7 +576,7 @@
 		},
 	"\/assets\/favicons\/mstile-310x150.png": {
 		"ft": 32768,
-		"iS": 1949,
+		"iS": 2033,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/mstile-310x150.png",
 		"oF": 0,
@@ -639,7 +587,7 @@
 		},
 	"\/assets\/favicons\/mstile-310x310.png": {
 		"ft": 32768,
-		"iS": 3857,
+		"iS": 3939,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/mstile-310x310.png",
 		"oF": 0,
@@ -650,7 +598,7 @@
 		},
 	"\/assets\/favicons\/mstile-70x70.png": {
 		"ft": 32768,
-		"iS": 987,
+		"iS": 1230,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/mstile-70x70.png",
 		"oF": 0,
@@ -676,20 +624,6 @@
 		"oAP": "\/assets\/favicons\/site.webmanifest",
 		"oF": 0
 		},
-	"\/assets\/fonts\/gallery.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/gallery.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/gallery.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/gallery.woff2",
-		"oF": 0
-		},
 	"\/assets\/fonts\/univers-next-pro-light.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -704,16 +638,6 @@
 		"oAP": "\/assets\/fonts\/univers-next-pro-light.woff2",
 		"oF": 0
 		},
-	"\/assets\/icons\/symbol-defs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/icons\/symbol-defs.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/assets\/img\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -726,7 +650,7 @@
 		},
 	"\/assets\/img\/og-image.png": {
 		"ft": 32768,
-		"iS": 4904,
+		"iS": 21803,
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
@@ -745,12 +669,32 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/assets\/js\/links.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/links-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/min\/app-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/links-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/links-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -772,34 +716,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/svgxuse-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
-		},
-	"\/assets\/scss\/_carousel.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_carousel.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/_colors.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_colors.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/assets\/scss\/_fonts.scss": {
 		"aP": 0,
@@ -901,19 +819,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/_underline.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_underline.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1468,14 +1373,6 @@
 		"oAP": "\/bower_components\/aos\/LICENSE",
 		"oF": 0
 		},
-	"\/bower_components\/aos\/package-lock.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/bower_components\/aos\/package-lock.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"\/bower_components\/aos\/postcss.config.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1645,6 +1542,13 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/bower_components\/aos\/yarn.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/yarn.lock",
+		"oF": 0
 		},
 	"\/bower_components\/foundation-sites\/.bower.json": {
 		"ft": 524288,
@@ -4521,7 +4425,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/foundation-sites\/scss\/settings\/_settings.scss",
 		"oF": 0,
 		"oS": 0,
@@ -5196,6 +5100,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/bower_components\/jquery\/src\/core\/camelCase.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/core\/camelCase.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/bower_components\/jquery\/src\/core\/DOMEval.js": {
 		"ft": 64,
 		"ma": 0,
@@ -5282,6 +5196,16 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/core\/support.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/core\/toType.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/core\/toType.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -5396,12 +5320,12 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/rmargin.js": {
+	"\/bower_components\/jquery\/src\/css\/var\/rboxStyle.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/var\/rmargin.js",
+		"oAP": "\/bower_components\/jquery\/src\/css\/var\/rboxStyle.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -5942,6 +5866,26 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/indexOf.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/isFunction.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/isFunction.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jquery\/src\/var\/isWindow.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jquery\/src\/var\/isWindow.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -7149,6 +7093,24 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/bower_components\/motion-ui\/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/motion-ui\/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/bower_components\/motion-ui\/composer.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -7409,6 +7371,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/bower_components\/motion-ui\/package-lock.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/motion-ui\/package-lock.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/bower_components\/motion-ui\/package.js": {
 		"ft": 64,
 		"ma": 0,
@@ -7666,6 +7636,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/bower_components\/motion-ui\/src\/util\/_function.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/motion-ui\/src\/util\/_function.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/bower_components\/motion-ui\/src\/util\/_keyframe.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -7705,6 +7688,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/bower_components\/motion-ui\/src\/util\/_string.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/motion-ui\/src\/util\/_string.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/bower_components\/motion-ui\/src\/util\/_transition.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -7730,6 +7726,13 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/bower_components\/motion-ui\/yarn.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/motion-ui\/yarn.lock",
+		"oF": 0
 		},
 	"\/bower_components\/svgxuse\/.bower.json": {
 		"ft": 524288,
@@ -7784,7 +7787,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/svgxuse\/svgxuse.js",
 		"oF": 0,
 		"sC": 1,
@@ -7799,6 +7802,659 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/bower_components\/turbolinks5\/.blade.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/.blade.yml",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/turbolinks5\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/.gitignore",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/.ruby-version": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/.ruby-version",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/.travis.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/.travis.yml",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/bin\/blade": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/bin\/blade",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/bin\/ci": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/bin\/ci",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/bin\/rackup": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/bin\/rackup",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/turbolinks5\/CONDUCT.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/CONDUCT.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/turbolinks5\/config.ru": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/config.ru",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/dist\/turbolinks.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/turbolinks5\/dist\/turbolinks.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/turbolinks5\/Gemfile": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/Gemfile",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/Gemfile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/Gemfile.lock",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/turbolinks5\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/BANNER.js.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/BANNER.js.erb",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/browser_adapter.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/browser_adapter.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/compatibility.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/compatibility.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/controller.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/controller.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/error_renderer.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/error_renderer.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/head_details.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/head_details.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/helpers.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/helpers.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/history.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/history.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/http_request.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/http_request.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/index.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/index.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/location.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/location.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/progress_bar.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/progress_bar.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/renderer.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/renderer.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/script_warning.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/script_warning.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/scroll_manager.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/scroll_manager.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/snapshot.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/snapshot.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/snapshot_cache.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/snapshot_cache.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/snapshot_renderer.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/snapshot_renderer.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/start.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/start.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/VERSION": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/VERSION",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/view.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/view.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/src\/turbolinks\/visit.coffee": {
+		"ft": 32,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/src\/turbolinks\/visit.coffee",
+		"oF": 0,
+		"oS": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/turbolinks5\/test\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/.gitignore",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/.vscode\/launch.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/.vscode\/launch.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/turbolinks5\/test\/environment.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/environment.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/fixtures\/additional_assets.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/fixtures\/additional_assets.html",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/fixtures\/body_script.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/fixtures\/body_script.html",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/fixtures\/eval_false_script.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/fixtures\/eval_false_script.html",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/fixtures\/head_script.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/fixtures\/head_script.html",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/fixtures\/navigation.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/fixtures\/navigation.html",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/fixtures\/one.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/fixtures\/one.html",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/fixtures\/permanent_element.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/fixtures\/permanent_element.html",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/fixtures\/rendering.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/fixtures\/rendering.html",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/fixtures\/test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/fixtures\/test.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/fixtures\/tracked_asset_change.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/fixtures\/tracked_asset_change.html",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/fixtures\/visit.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/fixtures\/visit.html",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/fixtures\/visit_control_reload.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/fixtures\/visit_control_reload.html",
+		"oF": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/intern.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/intern.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/turbolinks5\/test\/lib\/browser_test_case.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/turbolinks5\/test\/lib\/browser_test_case.ts",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/lib\/intern_test_case.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/turbolinks5\/test\/lib\/intern_test_case.ts",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/lib\/remote_channel.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/turbolinks5\/test\/lib\/remote_channel.ts",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/lib\/turbolinks_test_case.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/turbolinks5\/test\/lib\/turbolinks_test_case.ts",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/turbolinks5\/test\/suites\/navigation_tests.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/suites\/navigation_tests.ts",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/suites\/rendering_tests.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/suites\/rendering_tests.ts",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/suites\/visit_tests.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/suites\/visit_tests.ts",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/bower_components\/turbolinks5\/test\/tsconfig.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/tsconfig.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/turbolinks5\/test\/yarn.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/test\/yarn.lock",
+		"oF": 0
 		},
 	"\/bower_components\/what-input\/.bower.json": {
 		"ft": 524288,
@@ -7821,23 +8477,6 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/.gitignore",
 		"oF": 0
-		},
-	"\/bower_components\/what-input\/.nvmrc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/.nvmrc",
-		"oF": 0
-		},
-	"\/bower_components\/what-input\/dist\/lte-IE8.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/dist\/lte-IE8.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/bower_components\/what-input\/dist\/what-input.js": {
 		"ft": 64,
@@ -7918,26 +8557,6 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/src\/markup\/index.html",
 		"oF": 0
-		},
-	"\/bower_components\/what-input\/src\/scripts\/polyfills\/ie8\/EventListener.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/src\/scripts\/polyfills\/ie8\/EventListener.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/what-input\/src\/scripts\/polyfills\/ie8\/indexOf.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/src\/scripts\/polyfills\/ie8\/indexOf.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/bower_components\/what-input\/src\/scripts\/what-input.js": {
 		"ft": 64,
@@ -8052,7 +8671,7 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/index.md",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
@@ -8078,24 +8697,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/LICENSE.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/LICENSE.html",
-		"oF": 1,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -8112,9 +8713,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/README.html",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "\/README.md",
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -8160,14 +8761,16 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/svgxuse\/svgxuse.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/dist\/what-input.js",
 			"position": 4,
 			"type": 0
-			},
+			}
+		],
+	"\/assets\/js\/links.js": [
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/dist\/what-input.js",
-			"position": 5,
+			"linkedFileAbbreviatedPath": "\/bower_components\/turbolinks5\/dist\/turbolinks.js",
+			"position": 0,
 			"type": 0
 			}
 		]
@@ -10034,7 +10637,7 @@
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 2,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
