@@ -1,0 +1,17 @@
+<!-- Footer -->
+<footer class="grid-x grid-padding-x grid-padding-y align-justify secondary-color">  
+  
+  <div class="auto cell">
+    <ul class="menu">
+      {% for item in site.social %}  
+      <li><a href="{{ item[1] }}" target="_blank" rel="noopener"><span class="show-for-sr">{{ item[0] }}</span><svg class="icon icon-socials icon-{{ item[0] }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ item[0] }}"></use></svg></a></li>
+      {% endfor %} 
+    </ul>
+  </div>
+  
+  <div class="shrink cell slide-in-down">
+    <a href="/">© {{ 'now' | date: "%Y" }}</a>
+  </div>
+  
+</footer>
+<!-- End Footer -->

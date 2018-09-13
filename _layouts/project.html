@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<!-- Content -->
+<div class="grid-x grid-padding-x grid-padding-y align-center" data-aos="fade-in">
+
+<!-- Previous -->
+<div class="medium-2 cell show-for-large project__pagination">
+  {% if page.previous.url %}
+  <a href="{{page.previous.url}}">
+    <div class="grid-y align-center" style="height: 100%;">
+      <div class="shrink cell text-center"><svg class="icon icon-arrows icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg></div>
+    </div>
+  </a>
+  {% endif %}
+</div>
+<!-- End Previous -->
+
+<!-- Center -->
+<div class="small-12 medium-8 cell">
+  <div class="grid-y align-center" style="height: 100%;">
+    <div class="shrink cell text-center">
+      <div class="margin-bottom-2">{{ page.title }}</div>
+
+{% if page.vimeo %}
+<div class="grid-x grid-padding-x align-center">
+  <div class="auto cell">
+  	<div class="responsive-embed widescreen">
+  	   <iframe src="https://player.vimeo.com/video/{{ page.vimeo }}?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  	</div>
+  </div>
+</div>
+{% else %}
+{% for image in page.images %} 
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-12 cell">
+  	<img src="{{ image }}">
+  </div>
+</div>
+{% endfor %}
+{% endif %}
+
+<!-- Content -->
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-12 cell">
+  {{ page.content | markdownify }}
+  </div>
+</div>
+<!-- End Content -->
+
+<!-- Mobile Pagination -->
+{% if page.next.url %}
+<div class="grid-x grid-padding-x align-center hide-for-large">
+  <div class="shrink cell text-center">
+    <a href="{{page.next.url}}"><svg class="icon icon-arrows icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></a>
+  </div>
+</div>
+{% endif %}
+<!-- End Mobile Pagination -->
+      
+      
+      
+    </div>
+  </div>
+</div>
+<!-- End Center -->
+
+<!-- Next -->
+<div class="medium-2 cell show-for-large project__pagination">
+  {% if page.next.url %}
+  <a href="{{page.next.url}}">
+    <div class="grid-y align-center" style="height: 100%;">
+      <div class="shrink cell text-center"><svg class="icon icon-arrows icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></div>
+    </div>
+  </a>
+  {% endif %}
+</div>
+<!-- End Next -->
+
+</div>   
+<!-- End Content -->
