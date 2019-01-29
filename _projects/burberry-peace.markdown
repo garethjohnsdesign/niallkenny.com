@@ -1,7 +1,7 @@
 ---
 title: Burberry — Peace
 date: 2013-01-01 00:00:00 Z
-position: 9
+position: 10
 image: "/uploads/burberry-peace.jpg"
 vimeo: 69016182
 layout: project

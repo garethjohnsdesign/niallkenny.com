@@ -1,14 +1,13 @@
 ---
-title: New Era — Take to the Streets
+title: Visit Britain - Wales
 date: 2018-08-17 10:19:00 Z
-position: 11
-image: "/uploads/take-to-the-streets.jpg"
-vimeo: 48134764
+position: 0
+image: "/uploads/Screenshot%202019-01-29%20at%2013.29.50%20copy.jpg"
+vimeo: 313846535
 layout: project
 ---
 
-An advert for New Era hats promoting their new MLB range.
+A short doc for Visit Britain Wales for their campaign about Microgap's
 
-Director - Niall Kenny  
-D.O.P. - John Fisher  
-Producer - Posy Dixon  
+D.O.P./Director - Niall Kenny    
+Producer - James Baines  
