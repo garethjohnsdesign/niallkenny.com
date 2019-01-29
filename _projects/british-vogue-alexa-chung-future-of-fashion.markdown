@@ -1,7 +1,7 @@
 ---
 title: British Vogue — Alexa Chung Future of Fashion
 date: 2018-08-17 10:04:00 Z
-position: 4
+position: 5
 image: "/uploads/alexa-chung-vogue-youtube.jpg"
 vimeo: 283520350
 layout: project

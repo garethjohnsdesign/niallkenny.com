@@ -1,7 +1,7 @@
 ---
 title: i-D Magazine — Skateboard etiquette with Natalie Westling
 date: 2013-01-01 00:00:00 Z
-position: 9
+position: 10
 image: "/uploads/natalie-westling.jpg"
 vimeo: 94154227
 layout: project
