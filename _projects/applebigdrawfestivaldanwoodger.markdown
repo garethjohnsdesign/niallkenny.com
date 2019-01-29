@@ -7,7 +7,7 @@ vimeo: 313898999
 layout: project
 ---
 
-A shirt film profiling illustrator Dan Woodger ahead of his lecture for Apple's Big Draw Festival.
+A short film profiling illustrator Dan Woodger ahead of his lecture for Apple's Big Draw Festival.
 
 Director/Camera - Niall Kenny
 Producer - Rose Darkins
