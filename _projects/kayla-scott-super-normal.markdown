@@ -1,7 +1,7 @@
 ---
 title: 'Teen Vogue — Kayla Scott: Super Normal'
 date: 2013-01-01 00:00:00 Z
-position: 2
+position: 1
 image: "/uploads/teen-vogue-kayla-scott.jpg"
 vimeo: 151400072
 layout: project
